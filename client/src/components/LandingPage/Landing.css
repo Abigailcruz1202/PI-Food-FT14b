@@ -1,0 +1,14 @@
+.imagen{
+    background-image: url(https://st3.depositphotos.com/1020070/13420/v/1600/depositphotos_134207304-stock-illustration-chef-toques-caps-and-hats.jpg);
+    background-size: cover;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-decoration: double underline;
+    font-family: monospace;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+}
