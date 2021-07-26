@@ -1,7 +1,12 @@
 import React from 'react';
 
+import './filter.css';
+
 export default function FilterZA(){
     return(
-        <h1>Filter Z-A</h1>
+        <div className='divFilter'>
+            <h1>Filter Z-A</h1>            
+        </div>
+
     )
 }

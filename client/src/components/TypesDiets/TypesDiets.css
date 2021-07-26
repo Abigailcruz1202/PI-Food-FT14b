@@ -1,0 +1,11 @@
+.imagenDiets{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://misremedios.com/wp-content/uploads/2016/03/comida-sana-dieta-equilibrada-frutas-verduras-adelgazar-peso-700x466.jpg);
+    
+}
+.tituloDiets{
+    display: flex;
+    justify-content: center;
+}

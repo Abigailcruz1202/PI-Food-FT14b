@@ -7,7 +7,8 @@ import RecipeDetail from './components/RecipeDetail/RecipeDetail'
 import NavBar from './components/NavBar/NavBar';
 import FilterAZ from './components/Filter/FilterAZ';
 import FilterZA from './components/Filter/FilterZA';
-import TypesDiets from './components/Filter/TypesDiets';
+import TypesDiets from './components/TypesDiets/TypesDiets';
+import Form from './components/AddRecipe/AddRecipeForm';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path='/filter-a-z' component={FilterAZ} />
       <Route path='/filter-z-a' component={FilterZA} />
       <Route path='/typesdiets' component={TypesDiets} />
+      <Route path='/createrecipe' component={Form} />
     </BrowserRouter>
   );
 }

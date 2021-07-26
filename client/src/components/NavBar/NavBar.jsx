@@ -18,6 +18,7 @@ export default function NavBar(){
                         <NavLink to="/filter-a-z" >A-Z</NavLink>
                         <NavLink to="/filter-z-a" >Z-A</NavLink>
                         <NavLink to="/typesdiets" >TypesDiets</NavLink>
+                        <NavLink to='/createrecipe' >Create Recipe</NavLink>
             <SearchBar />
                     </li>
                 </ul>

@@ -1,0 +1,36 @@
+.imagenForm{
+    position: fixed;
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://thumbs.dreamstime.com/b/food-drinks-production-sale-vector-background-blue-line-icons-light-field-seamless-pattern-contour-grocery-store-119675783.jpg);
+}
+/* .input :focus{
+    box-sizing: border-box;
+    transition: width 0.4s ease-in-out;
+}
+.input{
+    transition: width 0.4s ease-in-out;
+} */
+/* input{
+    transition: width 0.4s ease-in-out;
+    display: flex;
+    justify-content: center;
+} */
+.contenedor{
+    background-color: rgba(158, 167, 197, 0.808);
+    border: solid 1px black; 
+    width: 50%; 
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    top: 100px;
+}
+.divInput{
+    display: flex;
+    height: 25px;
+    justify-content: space-evenly;
+}
