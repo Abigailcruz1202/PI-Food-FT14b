@@ -3,9 +3,10 @@ const { Router } = require('express');
 const APIKEY = '633708ff4d2744ffad1bed27a46a3887'
 const axios = require('axios');
 const { Recipe, Diet } = require('../db')
-const router = Router();
+const router = Router(); 
 
 router.get('/', async (req, res, next) => {
+    console.log('???????????????')
     const { name } = req.query;
     if (name) {
         const recipesApi = await axios.get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${APIKEY}&query=${name}&addRecipeInformation=true`)

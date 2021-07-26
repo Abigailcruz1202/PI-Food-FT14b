@@ -6,7 +6,7 @@ module.exports = (sequelize) => {
   sequelize.define('recipe', {
     name: {
       type: DataTypes.STRING,
-      allowNull: false, // no acepta campo vacio
+      allowNull: false, // no acepta campo vacio 
     },
     id:{
       type: DataTypes.UUID,   // Unique Universal IDentifier || IDentificaor Unico Universal

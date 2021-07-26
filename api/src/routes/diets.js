@@ -6,11 +6,11 @@ const { Diet } = require('../db')
 const Sequelize = require('sequelize');
 
 const router = Router();
-
+ 
 router.get('/types', async(req, res, next) =>{
    let types = ['Gluten Free','Ketogenic', 'Vegetarian','Lacto-Vegetarian','Ovo-Vegetarian','Vegan','Pescetarian', 'Paleo','Primal','Whole 30'];//tipos de dietas para pre cargar la base de datos(UNA FORMA DE HACER)
   let db = await Diet.findAll()
-  console.log(db.length,'db')
+  console.log(db.length,'db?')
   if(db.length === 0 ){
     types.forEach((element)=>{
       let dietsTypes = element

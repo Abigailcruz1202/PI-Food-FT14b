@@ -8,7 +8,7 @@ export default function Landing() {
             <div className='titulo'>
                 <h1>Foods Recipes</h1>
             </div>
-            <div className='boton'>
+            <div className='div-boton'>
                 <Link to='/home'>
                     <button>Home</button>
                 </Link>

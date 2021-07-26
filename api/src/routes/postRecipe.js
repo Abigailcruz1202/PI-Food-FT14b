@@ -9,7 +9,7 @@ const router = Router();
 // Resumen del plato
 // Puntuación
 // Nivel de "comida saludable"
-// Paso a paso
+// Paso a paso 
 
 router.post('/', async (req, res) => {
     //console.log('probando')

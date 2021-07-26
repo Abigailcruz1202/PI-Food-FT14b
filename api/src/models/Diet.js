@@ -4,7 +4,7 @@ const { DataTypes } = require('sequelize');
 module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define('diet', {
-    id:{
+    id:{ 
       type: DataTypes.UUID,   // Unique Universal IDentifier || IDentificaor Unico Universal
       defaultValue:DataTypes.UUIDV4,    //(.UUIDV1 o .UUIDV4 para hacer que sequelize genere los ids automáticamente)
       primaryKey: true    // declaramos primary key
